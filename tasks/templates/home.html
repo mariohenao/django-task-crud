@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Task CRUD</h1>
+        <p>A task CRUD (Create, Read, Update, Delete) is a software functionality that allows users to manage tasks within a system. The create function allows users to add new tasks, providing relevant information such as task title, description, due date, and priority level. The read function enables users to view and retrieve existing tasks and their details. The update function allows users to modify existing tasks by changing any of their attributes. Finally, the delete function enables users to remove tasks from the system. Overall, the task CRUD functionality provides a streamlined and efficient way for users to manage their tasks and stay organized.</p>
+
+        <div class="text-center">
+            <a class="btn btn-secondary" href="{% url 'signup' %}">
+                Signup
+            </a>
+            <a class="btn btn-dark" href="{% url 'signin' %}">
+                Signin
+            </a>
+        </div>
+    </section>
+</main>
+
+{% endblock %}
