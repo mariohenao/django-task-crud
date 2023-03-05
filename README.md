@@ -8,7 +8,7 @@ Create a virtual environment (e.g. with venv) and install requirements with
 ```
 pip install requirements.py
 ```
-Then run to setup the DB.
+Then run to setup the DB
 ```
 python manage.py makemigrations
 python manage.py migrate
