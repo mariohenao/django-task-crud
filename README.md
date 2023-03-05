@@ -8,7 +8,12 @@ Create a virtual environment (e.g. with venv) and install requirements with
 ```
 pip install requirements.py
 ```
-Run the App (use the port you want)
+Then run to setup the DB.
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+Finally run the App (use the port you want)
 ```
 python manage.py runserver {PORT}
 ```
